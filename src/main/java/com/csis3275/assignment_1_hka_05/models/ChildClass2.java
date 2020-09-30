@@ -1,6 +1,6 @@
 package com.csis3275.assignment_1_hka_05.models;
 
-public class ChildClass2 extends BaseModel {
+public class ChildClass2 extends BaseModel implements BaseInterface {
 	
 	protected Integer x = 0;
 	protected Integer y = 0;
@@ -45,6 +45,16 @@ public class ChildClass2 extends BaseModel {
 	 */
 	public String getFullName() {
 		return firstName+" "+lastName;
+	}
+	
+	@Override
+	public String method1() {
+		return "This is child class 2 and method 1";
+
+	}
+	@Override
+	public String method2() {
+		return "This is child class 2 and method 2";
 	}
 
 }

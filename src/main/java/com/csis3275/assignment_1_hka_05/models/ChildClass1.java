@@ -1,6 +1,6 @@
 package com.csis3275.assignment_1_hka_05.models;
 
-public class ChildClass1 extends BaseModel {
+public class ChildClass1 extends BaseModel implements BaseInterface {
 	
 	private String property1; 
 	private String property2;
@@ -39,6 +39,15 @@ public class ChildClass1 extends BaseModel {
 		temp.setX(x);
 		temp.setY(y);
 		return temp;
+	}
+	@Override
+	public String method1() {
+		return "This is child class 1 and method 1";
+
+	}
+	@Override
+	public String method2() {
+		return "This is child class 1 and method 2";
 	}
 
 
