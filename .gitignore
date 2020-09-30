@@ -1,0 +1,5 @@
+*.class #This is the binary conversion of all the java files, so will not commit these.
+.project #This is the eclipse configuration file, so we will not commit this.
+.settings #This is the eclipse setting file, so we will not commit this.
+.bin
+.classpath
