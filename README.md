@@ -1,0 +1,1 @@
+This assignment is to familiarize the student with the basic workings of a SpringMVC.
