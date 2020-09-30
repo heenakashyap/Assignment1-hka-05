@@ -15,7 +15,7 @@ public class NumberController {
 
 	@GetMapping("/")
 	public String viewActivity(Model model) {
-		return "Assignment1View";
+		return "Assignment1-hka-05";
 	}
 	
 	@PostMapping("/submit")
@@ -31,7 +31,7 @@ public class NumberController {
 			model.addAttribute("childClass2", childClass2);
 		}
 		
-		return "Assignment2View";
+		return "Assignment2-hka-05";
 	}
 	
 }
