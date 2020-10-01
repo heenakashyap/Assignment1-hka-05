@@ -11,7 +11,7 @@
 <body>
 
 	<h1>Please enter the below details</h1>
-	<form action="/assignment/submit" method="POST">
+	<form action="/Assignment1-hka-05/submit" method="POST">
 
 		<table width="50%">
 			<tr>
