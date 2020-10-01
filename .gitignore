@@ -1,4 +1,4 @@
 .project #This is the eclipse configuration file, so we will not commit this.
-.settings #This is the eclipse setting file, so we will not commit this.
+.settings #This is the eclipse setting file, so we will not commit this
 .classpath 
-/target/
+/target/ #Target Folder contains the compiled files and the war file, which are not to be committed
