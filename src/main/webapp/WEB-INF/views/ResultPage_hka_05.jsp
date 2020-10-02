@@ -5,7 +5,7 @@
 <%@ page import="com.csis3275.assignment_1_hka_05.models.*"%>
 
 <%!Integer additionResult = 0;%>
-<%!Integer multiplyResult = 0;%>
+<%!Double increment = 0.0;%>
 <%!String fullName = "";%>
 <%!String age = "";%>
 <%!String interfaceMethod1 = "";%>
@@ -41,17 +41,17 @@ tr:nth-child(even) {
 
 	<%
 		Object childClass2 = request.getAttribute("childClass2");
-		if (childClass2 != null) {
-			System.out.println("Child class 2 instance received in jsp is not null");
-			ChildClass2 temp = (ChildClass2) childClass2;
-			fullName = temp.getFullName();
-			age = temp.getAge();
-			additionResult = temp.add();
-			multiplyResult = temp.mulitply();
-			interfaceMethod1 = temp.method1();
-			interfaceMethod2 = temp.method2();
-			errorMessage = temp.getErrorMessage();
-		}
+			if (childClass2 != null) {
+		System.out.println("Child class 2 instance received in jsp is not null");
+		ChildClass2_hka_05 temp = (ChildClass2_hka_05) childClass2;
+		fullName = temp.getFullName();
+		age = temp.getAge();
+		additionResult = temp.add();
+		increment = temp.salaryChange();
+		interfaceMethod1 = temp.method1();
+		interfaceMethod2 = temp.method2();
+		errorMessage = temp.getErrorMessage();
+			}
 	%>
 
 	<table style="width: 50%">
@@ -73,12 +73,12 @@ tr:nth-child(even) {
 
 	<table style="width: 50%">
 		<tr>
-			<td>Multiply Result</td>
-			<td><%=multiplyResult%></td>
+			<td>Total Salary of both years</td>
+			<td><%=additionResult%></td>
 		</tr>
 		<tr>
-			<td>Addition result</td>
-			<td><%=additionResult%></td>
+			<td>Salary Change in percentage</td>
+			<td><%=increment%> %</td>
 		</tr>
 		<tr>
 			<td>Interface Method 1</td>

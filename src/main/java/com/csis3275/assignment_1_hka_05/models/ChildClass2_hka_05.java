@@ -1,6 +1,6 @@
 package com.csis3275.assignment_1_hka_05.models;
 
-public class ChildClass2 extends BaseModel implements BaseInterface {
+public class ChildClass2_hka_05 extends BaseModel_hka_05 implements BaseInterface_hka_05 {
 	
 	protected Integer x = 0;
 	protected Integer y = 0;
@@ -36,8 +36,9 @@ public class ChildClass2 extends BaseModel implements BaseInterface {
 	/*
 	 * Trivial Method 2
 	 */
-	public Integer mulitply() {
-		return x*y;
+	public double salaryChange() 
+	{
+		return ((y-x)/(double)x)*100;
 	}
 	
 	/*

@@ -1,6 +1,6 @@
 package com.csis3275.assignment_1_hka_05.models;
 
-public class ChildClass1 extends BaseModel implements BaseInterface {
+public class ChildClass1_hka_05 extends BaseModel_hka_05 implements BaseInterface_hka_05 {
 	
 	private String property1; 
 	private String property2;
@@ -21,8 +21,8 @@ public class ChildClass1 extends BaseModel implements BaseInterface {
 	/*
 	 * Trivial Method 1
 	 */
-	public ChildClass2 getChildClass2() {
-		ChildClass2 temp = new ChildClass2();
+	public ChildClass2_hka_05 getChildClass2() {
+		ChildClass2_hka_05 temp = new ChildClass2_hka_05();
 		temp.setX(Integer.parseInt(property1.trim()));
 		temp.setY(Integer.parseInt(property2.trim()));
 		temp.setFirstName(firstName);
@@ -35,7 +35,7 @@ public class ChildClass1 extends BaseModel implements BaseInterface {
 	/*
 	 * Trivial Method 1
 	 */
-	public ChildClass2 updateChildClass2(ChildClass2 temp, Integer x, Integer y) {	
+	public ChildClass2_hka_05 updateChildClass2(ChildClass2_hka_05 temp, Integer x, Integer y) {	
 		temp.setX(x);
 		temp.setY(y);
 		return temp;

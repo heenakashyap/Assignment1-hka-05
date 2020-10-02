@@ -1,6 +1,6 @@
 package com.csis3275.assignment_1_hka_05.models;
 
-public class BaseModel {
+public class BaseModel_hka_05 {
 	
 	protected String firstName;
 	protected String lastName;

@@ -25,17 +25,17 @@
 			</tr>
 
 			<tr>
-				<td>age:</td>
+				<td>Age:</td>
 				<td><input type="text" name="age"></td>
 			</tr>
 
 			<tr>
-				<td>First Number:</td>
+				<td>Previous Year Salary:</td>
 				<td><input type="text" name="property1"></td>
 			</tr>
 
 			<tr>
-				<td>Second Number:</td>
+				<td>Current year Salary:</td>
 				<td><input type="text" name="property2" /></td>
 			</tr>
 		</table>
