@@ -11,6 +11,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
+/**
+ * 
+ * @author Heena
+ * Spring mvc configuration class
+ */
 @EnableWebMvc
 @ComponentScan(basePackages = {"com.csis3275.assignment_1_hka_05"})
 @Configuration

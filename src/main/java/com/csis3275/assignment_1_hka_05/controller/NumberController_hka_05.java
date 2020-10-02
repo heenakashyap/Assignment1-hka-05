@@ -8,7 +8,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.csis3275.assignment_1_hka_05.models.ChildClass1_hka_05;
 import com.csis3275.assignment_1_hka_05.models.ChildClass2_hka_05;
 
-
+/**
+ * 
+ * @author Heena
+ * Controller class, defines the end point used in the application
+ */
 @Controller
 public class NumberController_hka_05 {
 

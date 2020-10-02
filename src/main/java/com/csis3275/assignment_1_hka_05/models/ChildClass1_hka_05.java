@@ -1,5 +1,10 @@
 package com.csis3275.assignment_1_hka_05.models;
 
+/**
+ * 
+ * @author Heena
+ * Received as a model in the controller 
+ */
 public class ChildClass1_hka_05 extends BaseModel_hka_05 implements BaseInterface_hka_05 {
 	
 	private String property1; 

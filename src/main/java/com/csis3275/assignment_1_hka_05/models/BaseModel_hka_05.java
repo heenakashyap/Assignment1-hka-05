@@ -1,5 +1,10 @@
 package com.csis3275.assignment_1_hka_05.models;
 
+/**
+ * 
+ * @author Heena
+ * Base model class as this will be containing Fields common to child class
+ */
 public class BaseModel_hka_05 {
 	
 	protected String firstName;

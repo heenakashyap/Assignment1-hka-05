@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.csis3275.assignment_1_hka_05.models","l":"BaseModel_hka_05"}]

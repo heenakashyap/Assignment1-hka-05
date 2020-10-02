@@ -1,5 +1,10 @@
 package com.csis3275.assignment_1_hka_05.models;
 
+/**
+ * 
+ * @author Heena
+ * Will set the class as a attribute to the response, and this attribute will be available on jsp page
+ */
 public class ChildClass2_hka_05 extends BaseModel_hka_05 implements BaseInterface_hka_05 {
 	
 	protected Integer x = 0;
